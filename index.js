@@ -23,3 +23,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+$(document).ready(function(){
+    $("a").click(function(){
+        $(".mobile-nav").removeClass("is-active");
+    });
+});
